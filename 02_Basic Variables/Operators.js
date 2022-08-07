@@ -20,3 +20,6 @@ console.log(`
     Total Discount is : ${displayDiscountPercentage}%off
 `)
 
+var result =  sellPrice > listPrice;
+
+console.log(`Type of result operator is ${typeof result}`)
